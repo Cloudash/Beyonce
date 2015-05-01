@@ -13,15 +13,19 @@
 <link href="../style.css" rel="stylesheet" type="text/css">
 <!-- TemplateParam name="Villains-list" type="boolean" value="true" -->
 <!-- TemplateParam name="Villians" type="boolean" value="true" -->
+<!-- TemplateParam name="DestinysChild" type="boolean" value="false" -->
+<!-- TemplateParam name="SashaFierce" type="boolean" value="false" -->
+<!-- TemplateParam name="Mrs.Carter" type="boolean" value="false" -->
+<!-- TemplateParam name="History" type="boolean" value="false" -->
 </head>
 
 <body bgcolor="#CCCCCC">
 <table width="950">
   <tr class="buttons">
     <td width="25" class="homebutton"><a href="../index.html">Home</a></td>
-    <td width="25" class="doctorsbutton">Destiny's Child</td>
-    <td width="25" class="companionsbutton">Sasha Fierce</td>
-    <td width="25" class="villiansbutton">Mrs. Carter</td>
+    <td width="25" class="doctorsbutton"><a href="../destinys-child/index.html">Destiny's Child</a></td>
+    <td width="25" class="companionsbutton"><a href="../sasha-fierce/index.html">Sasha Fierce</a></td>
+    <td width="25" class="villiansbutton"><a href="../mrs-carter/index.html">Mrs. Carter</a></td>
   </tr>
   <tr>
     <td height="0" colspan="4"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
@@ -29,7 +33,36 @@
 </table>
 <table width="950">
   <tr>
-    <td class="secondary"><p>&nbsp;</p></td>
+    <td class="secondary"><!-- TemplateBeginIf cond="_document['DestinysChild']" -->
+      <p>DestinysChild</p>
+<ul>
+        <li><a href="../destinys-child/beyonce.html">Beyonce</a></li>
+        <li><a href="../destinys-child/kelly.html">Kelly Rowland</a></li>
+        <li><a href="../destinys-child/latoya.html">Latoya Luckett</a></li>
+        <li><a href="../destinys-child/michelle.html">Michelle Williams</a></li>
+      </ul>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="SashaFierce" -->
+    <p>SashaFierce</p>
+<ul>
+  <li><a href="../sasha-fierce/backup-dancers.html">Backup Dancers</a></li>
+  <li><a href="../sasha-fierce/if-i-were-a-boy.html">If I Were A Boy</a></li>
+  <li><a href="../sasha-fierce/single-ladies.html">Single Ladies</a></li>
+</ul>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Mrs.Carter']" -->
+    <p>Mrs.Carter</p>
+<ul>
+  <li><a href="../mrs-carter/jay-z.html">Jay Z</a></li>
+  <li><a href="../mrs-carter/mrs-carter-world-tour.html">Mrs. Carter World Tour</a></li>
+  <li><a href="../mrs-carter/on-the-run-tour.html">On The Run Tour</a></li>
+  <li><a href="../mrs-carter/wedding.html">Wedding</a></li>
+</ul>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="History" -->
+    <p>History</p>
+    <p><a href="../history-of-beyonce/index.html">Who Is Beyonce?</a></p>
+    <p><a href="../index.html">Beyonce Homepage</a></p>
+    <p>&nbsp;</p>
+    <!-- TemplateEndIf -->
+<p>&nbsp;</p></td>
     <td class="content-area"><!-- TemplateBeginEditable name="Content" -->[Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
