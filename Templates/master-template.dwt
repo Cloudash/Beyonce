@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="The Doctors Menu" type="boolean" value="false" -->
+<!-- TemplateParam name="Companions Menu" type="boolean" value="false" -->
+<!-- TemplateParam name="Villains Menu" type="boolean" value="true" -->
+<link href="../style.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="Villains-list" type="boolean" value="true" -->
+<!-- TemplateParam name="Villians" type="boolean" value="true" -->
+</head>
+
+<body bgcolor="#CCCCCC">
+<table width="950">
+  <tr class="buttons">
+    <td width="25" class="homebutton"><a href="../index.html">Home</a></td>
+    <td width="25" class="doctorsbutton">Destiny's Child</td>
+    <td width="25" class="companionsbutton">Sasha Fierce</td>
+    <td width="25" class="villiansbutton">Mrs. Carter</td>
+  </tr>
+  <tr>
+    <td height="0" colspan="4"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+<table width="950">
+  <tr>
+    <td class="secondary"><p>&nbsp;</p></td>
+    <td class="content-area"><!-- TemplateBeginEditable name="Content" -->[Content]<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+</body>
+</html>
