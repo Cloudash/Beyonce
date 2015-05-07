@@ -13,4 +13,17 @@
 	background-color: #FFF;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: bold;
+	top: 50px;
+}
+.tabs-at-top {
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #333;
+}
+.image-border {
+	color: #333;
+	background-color: #333;
+}
+.general-background {
+	color: #333;
 }
